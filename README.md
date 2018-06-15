@@ -30,7 +30,7 @@ Készíts egy neurális hálózatot, ami az 32x32 pixeles képből megtanulja vi
 ---
 
 
-##### Képek beszerzése
+#### Képek beszerzése
 Internetes keresés után több opció is felmerült a szűkséges adatok összegyűjtésére: *GoogleImages*, *CIFAR10*, *ImageNet*.
 
 A **CIFAR10** egy 10 különböző kategóriát - köztük hajókat is - tartalmazó `32x32` méretű képekből álló adathalmaz. Kategóriánként 5000 training képpel és 1000 validation képpel. Ezt előkészítve kaptuk volna, azonban az elérhető maximális képméret 32x32 volt, így a `64x64`-es követelmény miatt mást kellett választani.
