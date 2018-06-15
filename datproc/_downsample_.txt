@@ -1,0 +1,22 @@
+magick mogrify -resize "64x64^" -gravity center -extent 64x64 -strip -quality 92 -path ..\64x64 *.*
+magick mogrify -resize "32x32^" -gravity center -extent 32x32 -strip -quality 92 -path ..\32x32 *.*
+
+
+magick mogrify -filter lanczos -scale "64x64^" -gravity center -extent 64x64 -strip -quality 100 -path ..\64x64q100 *.*
+magick mogrify -filter lanczos -scale "32x32^" -gravity center -extent 32x32 -strip -quality 100 -path ..\32x32q100 *.*
+magick mogrify -filter lanczos -scale "64x64^" -strip -quality 100 -path ..\64x64lanczos *.*
+magick mogrify -filter catrom  -scale "64x64^" -strip -quality 100 -path ..\64x64bicubic *.*
+magick mogrify -interpolate Catrom -scale "64x64^" -strip -quality 100 -path ..\64x64i *.*
+
+magick mogrify -scale "64x64^" -gravity center -extent 64x64 -strip -quality 100 -path ..\test1 *.*
+magick mogrify -filter hamming -scale "64x64^" -gravity center -extent 64x64 -strip -quality 100 -path ..\test2 *.*
+
+
+magick mogrify -resize "64x64^" -gravity center -extent 64x64 -strip -quality 92 -path ..\64x64 n02792552_32669.JPEG
+
+
+
+tar -cfz 64x64lanczos.tar.gz 64x64lanczos
+
+
+magick mogrify -scale "200x200^" -gravity center -extent 200x200 -strip -quality 100 -path ..\ *.*
