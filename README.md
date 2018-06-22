@@ -9,6 +9,11 @@ Szabó Dávid<br/>
 _david@gmail.com_<br/>
 (JLF6V4)
 
+Kürty Gyula László<br/>
+(I492q2)<br/>
+**Bővített leírás:**
+[GoogleDocs](https://docs.google.com/document/d/1boMNZsrCYYDBOrZ-RbZ02iLHjTWZAesnbHT8jQKZdCE/view)
+
 
 ### Feladat leírása
 > * Szerezz 5000 db legalább 64x64 méretű képet, amin hajó van. Használhatod ehhez például a google images-t (alább egy releváns link), vagy az ImageNet adathalmazt.
