@@ -2,11 +2,11 @@
 
 
 Kruppai Gábor<br/>
-_kruppaigabor@gmail.com_<br/>
+_kruppaigabor gmail com_<br/>
 (A180FM)
 
 Szabó Dávid<br/>
-_david@gmail.com_<br/>
+_david gmail com_<br/>
 (JLF6V4)
 
 Kürty Gyula László<br/>
